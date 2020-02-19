@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width">
+        <meta name = "description" content = "Iurom Impex este o companie de referinta in domeniul transporturilor rutiere de marfuri care raspunde prompt nevoilor logistice ale companiilor la nivel local, national si international.">
+        <meta name = "keywords" content = "transport, marfa, companie de transport">
+        <meta name = "author" content="Gioanca Raul">
+        <title>Iurom Impx - Servicii</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./java/js-servicii.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <a href="index.html"><span class="highlight">Iurom Impex</span> - Servicii</a>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li class="dropdown"><a href="index.html">Iurom Impex</a>
+                            <ul class="dropdown-content">
+                                <li><a href="transporturi.html">Transporturi</a></li>
+                                <li><a href="logistica.html">Logistica</a></li>
+                            </ul>
+                        <li><a href="despre.html">Despre</a></li>
+                        <li class="current dropdown"><a href="servicii.html">Servicii</a>
+                            <ul class="dropdown-content">
+                                <li><a href="cursa.html">Transport marfa</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+        <section id="newsletter">
+            <div class="container">
+                <h1>Abonati-va pentru a afla oferte si noutati!</h1>
+                <form id="my-form-index">
+                    <input type="email" id="email" placeholder="Email...">
+                    <button type="submit" class="button_1">Abonati-va</button>
+                </form>
+            </div>
+            <div class="msg"></div>
+            <div>
+                <ul id="users"></ul>
+            </div>
+        </section>
+
+        <section id="main">
+            <!-- Stop propagation:
+                <input type="checkbox" id="check"> -->
+            <div class="container">
+                <article id="main-col">
+                    <h1 class="page-title">Clienții noștri beneficiază de garanția calității serviciilor specializate pe care le solicită. Propunem servicii premium de transport al mărfurilor în toată Europa.</h1>
+                    <ul id="servicii">
+                        <li>
+                            <h3>Transport marfuri</h3>
+                            <p>Asigurăm transportul de mărfuri generale, de produse specifice industriei alimentare sau industriei automotive, atât pe rute din România, cât și pe rute internaţionale. Maşinile folosite pentru acest tip de transporturi sunt adaptate în funcţie de volumul mărfurilor transportate şi de condiţiile speciale necesare siguranţei unor tipuri de mărfuri.</p>
+                            <p>Transportăm orice tip de mărfuri generale intern şi internaţional cu maşini de diferite capacităţi. În funcţie de volumul transportat, vă recomandăm maşina potrivită care poate livra mărfurile dumneavoastră în siguranţă şi în intervalul de timp dorit.</p>
+                        </li>
+
+                        <li>
+                            <h3>Recuperare si tractare</h3>
+                            <p>Remorcherul Iurom Impex este conceput pentru a interveni în cazul blocajelor de drum provocate de accidente, pentru tractarea și repunerea în circulație a vehiculelor/autocamioanelor și a autobuzelor/autocarelor avariate.
+                                Poate fi solicitat atât pentru recuperare, cât și pentru tractare la punctul dorit de client.
+                                Totodată, echipa Iurom Impex vă stă la dispoziție cu serviciul de depanare mobil, cât și cu soluții de transport pe platformă.</p>
+                        </li>
+                        
+                        <li>
+                            <h3>Depozitare</h3>
+                            <p>Iurom Impex oferă clienților soluții logistice complete.
+                                    Vă putem pune la dispoziție, prin intermediul partenerilor noștri, spații de depozitare în diverse locații din Timișoara, Hannovra, Furth.</p>
+                        </li>
+                    </ul>
+                </article>
+
+
+                <aside id="sidebar">
+                    <div class="dark">
+                        <h3>Intrebari</h3>
+                        
+                        <form id="myF" class="quote">
+                            <div>
+                                <label>Nume</label><br>
+                                <input type="text" placeholder="Nume" id="nume" name="first_name">
+                            </div>
+
+                            <div>
+                                <label>Email</label><br>
+                                <input type="email" placeholder="Adresa de Email" id="mail" name="mail">
+                            </div>
+
+                            <div>
+                                <label>Mesaj</label><br>
+                                <textarea placeholder="Mesaj" id="mesg" name="mesg"></textarea>
+                            </div>
+                            <button class="button_1" type="submit">Trimite</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <p>Transporturi, Copyright &copy; </p>
+        </footer>
+    </body>
+</html>

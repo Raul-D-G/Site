@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <meta name="description"
+        content="Iurom Impex este o companie de referinta in domeniul transporturilor rutiere de marfuri care raspunde prompt nevoilor logistice ale companiilor la nivel local, national si international.">
+    <meta name="keywords" content="transport, marfa, companie de transport">
+    <meta name="author" content="Gioanca Raul">
+    <title>Iurom Impx - Despre</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./java/js-cursa.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <a href="index.html"><span class="highlight">Iurom Impex</span> - Despre</a>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li class="dropdown"><a href="index.html">Iurom Impex</a>
+                        <ul class="dropdown-content">
+                            <li><a href="transporturi.html">Transporturi</a></li>
+                            <li><a href="logistica.html">Logistica</a></li>
+                        </ul>
+                    <li><a href="despre.html">Despre</a></li>
+                    <li class="dropdown"><a href="servicii.html">Servicii</a>
+                        <ul class="dropdown-content">
+                            <li class="current"><a href="cursa.html">Transport marfa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Abonati-va pentru a afla oferte si noutati!</h1>
+            <form id="my-form-index">
+                <input type="email" id="email" placeholder="Email...">
+                <button type="submit" class="button_1">Abonati-va</button>
+            </form>
+        </div>
+        <div class="msg"></div>
+        <div>
+            <ul id="users"></ul>
+        </div>
+    </section>
+
+
+
+    <section class="container">
+        <div style="width: 100%; height: 480px" id="mapContainer"></div>
+    </section>
+    
+
+
+
+
+
+    <footer id="footer">
+        <p>Transporturi, Copyright &copy; </p>
+    </footer>
+</body>
+
